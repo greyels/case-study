@@ -2,7 +2,7 @@
 
 To design a cloud-native service with AWS resources that receives a lot of JSON messages, transforms, enriches them with data from an external data source and upload to a database, we are going to use the following architecture and services: 
  
-![Solution Architecture](https://github.com/greyels/drawio/blob/main/aws_de_challenge.png)
+![Solution Architecture](https://github.com/greyels/case-study/blob/main/aws-de-challenge/aws_de_challenge.png)
 
 1.	Amazon API Gateway: This will be the entry point for the messages that are sent to the service. The API Gateway can handle large amounts of traffic and can be easily scaled to handle more requests as the traffic increases.
 2.	AWS Lambda: There are three Lambda functions utilized:
